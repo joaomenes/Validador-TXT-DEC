@@ -1,0 +1,82 @@
+{
+  "nome_arquivo": "DOI.TXT",
+  "versao_layout": "6.1",
+  "tamanho_registro": "367 bytes (365 bytes de dados + 2 bytes ODOA)",
+  "registros": {
+    "1": {
+      "descricao": "Dados da Operação",
+      "campos": [
+        { "nome": "Id. do Registro", "posicao_inicio": 1, "posicao_fim": 1, "tamanho": 1, "valor_fixo": "1" },
+        { "nome": "Espaços em Branco ou Número de Controle", "posicao_inicio": 2, "posicao_fim": 11, "tamanho": 10, "pode_ficar_vazio": true },
+        { "nome": "Data da Lavratura", "posicao_inicio": 12, "posicao_fim": 21, "tamanho": 10, "formato": "DD/MM/AAAA" },
+        { "nome": "Livro", "posicao_inicio": 22, "posicao_fim": 28, "tamanho": 7, "pode_ficar_vazio": true },
+        { "nome": "Folha", "posicao_inicio": 29, "posicao_fim": 33, "tamanho": 5, "pode_ficar_vazio": true },
+        { "nome": "Matrícula", "posicao_inicio": 34, "posicao_fim": 48, "tamanho": 15, "pode_ficar_vazio": true },
+        { "nome": "Registro", "posicao_inicio": 49, "posicao_fim": 63, "tamanho": 15, "pode_ficar_vazio": true },
+        { "nome": "Situação", "posicao_inicio": 64, "posicao_fim": 64, "tamanho": 1 },
+        { "nome": "Atribuição da DOI", "posicao_inicio": 65, "posicao_fim": 65, "tamanho": 1 },
+        { "nome": "Tipo da Transação", "posicao_inicio": 66, "posicao_fim": 67, "tamanho": 2 },
+        { "nome": "Descrição do tipo de Transação Outros", "posicao_inicio": 68, "posicao_fim": 97, "tamanho": 30, "pode_ficar_vazio": true },
+        { "nome": "Retificação do Ato", "posicao_inicio": 98, "posicao_fim": 98, "tamanho": 1 },
+        { "nome": "Data da alienação", "posicao_inicio": 99, "posicao_fim": 108, "tamanho": 10, "formato": "DD/MM/AAAA" },
+        { "nome": "Forma da Alienação/Aquisição", "posicao_inicio": 109, "posicao_fim": 109, "tamanho": 1 },
+        { "nome": "Valor não Consta nos Documentos", "posicao_inicio": 110, "posicao_fim": 110, "tamanho": 1 },
+        { "nome": "Valor da Alienação/Aquisição", "posicao_inicio": 111, "posicao_fim": 125, "tamanho": 15 },
+        { "nome": "Base de calc. ITBI/ITCD", "posicao_inicio": 126, "posicao_fim": 140, "tamanho": 15 },
+        { "nome": "Tipo de imóvel", "posicao_inicio": 141, "posicao_fim": 142, "tamanho": 2 },
+        { "nome": "Descrição do tipo de Imóvel Outros", "posicao_inicio": 143, "posicao_fim": 172, "tamanho": 30, "pode_ficar_vazio": true },
+        { "nome": "Situação da Construção", "posicao_inicio": 173, "posicao_fim": 173, "tamanho": 1 },
+        { "nome": "Localização", "posicao_inicio": 174, "posicao_fim": 174, "tamanho": 1 },
+        { "nome": "Área não consta", "posicao_inicio": 175, "posicao_fim": 175, "tamanho": 1 },
+        { "nome": "Área", "posicao_inicio": 176, "posicao_fim": 192, "tamanho": 17 },
+        { "nome": "Endereço do imóvel", "posicao_inicio": 193, "posicao_fim": 232, "tamanho": 40 },
+        { "nome": "Número", "posicao_inicio": 233, "posicao_fim": 238, "tamanho": 6 },
+        { "nome": "Complemento", "posicao_inicio": 239, "posicao_fim": 259, "tamanho": 21, "pode_ficar_vazio": true },
+        { "nome": "Bairro", "posicao_inicio": 260, "posicao_fim": 279, "tamanho": 20 },
+        { "nome": "CEP do imóvel", "posicao_inicio": 280, "posicao_fim": 287, "tamanho": 8 },
+        { "nome": "Município", "posicao_inicio": 288, "posicao_fim": 317, "tamanho": 30 },
+        { "nome": "UF", "posicao_inicio": 318, "posicao_fim": 319, "tamanho": 2 },
+        { "nome": "Inscrição/NIRF", "posicao_inicio": 320, "posicao_fim": 334, "tamanho": 15, "pode_ficar_vazio": true },
+        { "nome": "Valor ITBI não Consta nos Documentos", "posicao_inicio": 335, "posicao_fim": 335, "tamanho": 1 },
+        { "nome": "Filler (Espaços em branco)", "posicao_inicio": 336, "posicao_fim": 365, "tamanho": 30, "pode_ficar_vazio": true },
+        { "nome": "OD0A (Hexa)", "posicao_inicio": 366, "posicao_fim": 367, "tamanho": 2, "valor_fixo": "Fim de registro" }
+      ]
+    },
+    "2": {
+      "descricao": "Dados dos Alienantes",
+      "campos": [
+        { "nome": "Id. do Registro", "posicao_inicio": 1, "posicao_fim": 1, "tamanho": 1, "valor_fixo": "2" },
+        { "nome": "Filler (Espaços em branco)", "posicao_inicio": 2, "posicao_fim": 11, "tamanho": 10, "pode_ficar_vazio": true },
+        { "nome": "CPF/CNPJ", "posicao_inicio": 12, "posicao_fim": 25, "tamanho": 14 },
+        { "nome": "Filler (Espaços em branco)", "posicao_inicio": 26, "posicao_fim": 140, "tamanho": 115, "pode_ficar_vazio": true },
+        { "nome": "Participação na Operação", "posicao_inicio": 141, "posicao_fim": 146, "tamanho": 6 },
+        { "nome": "CPF Procurador", "posicao_inicio": 147, "posicao_fim": 157, "tamanho": 11, "pode_ficar_vazio": true },
+        { "nome": "Filler (Espaços em branco)", "posicao_inicio": 158, "posicao_fim": 365, "tamanho": 208, "pode_ficar_vazio": true },
+        { "nome": "Fim de Registro", "posicao_inicio": 366, "posicao_fim": 367, "tamanho": 2, "valor_fixo": "ODOA (Hexa)" }
+      ]
+    },
+    "3": {
+      "descricao": "Dados dos Adquirentes",
+      "campos": [
+        { "nome": "Id. do Registro", "posicao_inicio": 1, "posicao_fim": 1, "tamanho": 1, "valor_fixo": "3" },
+        { "nome": "Filler (Espaços em branco)", "posicao_inicio": 2, "posicao_fim": 11, "tamanho": 10, "pode_ficar_vazio": true },
+        { "nome": "CPF/CNPJ", "posicao_inicio": 12, "posicao_fim": 25, "tamanho": 14 },
+        { "nome": "Filler (Espaços em branco)", "posicao_inicio": 26, "posicao_fim": 140, "tamanho": 115, "pode_ficar_vazio": true },
+        { "nome": "Participação na Operação", "posicao_inicio": 141, "posicao_fim": 146, "tamanho": 6 },
+        { "nome": "CPF Procurador", "posicao_inicio": 147, "posicao_fim": 157, "tamanho": 11, "pode_ficar_vazio": true },
+        { "nome": "Filler (Espaços em branco)", "posicao_inicio": 158, "posicao_fim": 365, "tamanho": 208, "pode_ficar_vazio": true },
+        { "nome": "Fim de Registro", "posicao_inicio": 366, "posicao_fim": 367, "tamanho": 2, "valor_fixo": "ODOA (Hexa)" }
+      ]
+    },
+    "9": {
+      "descricao": "Dados de Controle",
+      "campos": [
+        { "nome": "Id. do Registro", "posicao_inicio": 1, "posicao_fim": 1, "tamanho": 1, "valor_fixo": "9" },
+        { "nome": "Filler (Espaços em branco)", "posicao_inicio": 2, "posicao_fim": 17, "tamanho": 16, "pode_ficar_vazio": true },
+        { "nome": "Campo de Controle", "posicao_inicio": 18, "posicao_fim": 23, "tamanho": 6 },
+        { "nome": "Filler (Espaços em branco)", "posicao_inicio": 24, "posicao_fim": 365, "tamanho": 342, "pode_ficar_vazio": true },
+        { "nome": "Fim de Registro", "posicao_inicio": 366, "posicao_fim": 367, "tamanho": 2, "valor_fixo": "ODOA (Hexa)" }
+      ]
+    }
+  }
+}
